@@ -1,0 +1,85 @@
+/* Container styles */
+.page-notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  color: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+/* 404 Number */
+.page-notfound-container h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  color: #ff5e5e;
+  animation: popIn 0.8s ease-out;
+}
+
+/* Message */
+.page-notfound-container p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  animation: slideUp 1s ease-out;
+}
+
+/* Link */
+.page-notfound-container a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  animation: fadeInLink 2s ease-in;
+  transition: transform 0.3s ease;
+}
+
+.page-notfound-container a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLink {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

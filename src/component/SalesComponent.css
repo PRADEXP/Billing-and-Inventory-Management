@@ -1,0 +1,64 @@
+.analytics-container {
+  padding: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.analytics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #2c3e50;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.analytics-table th,
+.analytics-table td {
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.analytics-table th {
+  background-color: #e74c3c; /* a modern red */
+  color: #fff;
+  font-weight: 700;
+  user-select: none;
+}
+
+.analytics-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.analytics-table tr:hover {
+  background-color: #fdecea;
+}
+.analytics-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.analytics-button:hover {
+  background-color: darkblue;
+}

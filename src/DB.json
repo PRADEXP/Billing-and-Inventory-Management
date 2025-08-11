@@ -1,0 +1,186 @@
+{
+  "product": [
+    {
+      "id": "b9ec",
+      "name": "apple11",
+      "total": "0",
+      "price": "0999999"
+    },
+    {
+      "name": "lap",
+      "total": "80",
+      "price": "06000",
+      "id": "81e5"
+    },
+    {
+      "id": "59be",
+      "name": "headphone",
+      "total": "48",
+      "price": "01000"
+    },
+    {
+      "id": "326b",
+      "name": "a",
+      "total": "9991",
+      "price": "010"
+    }
+  ],
+  "sales": [
+    {
+      "id": "3bf7",
+      "name": "pradeep",
+      "address": "ywgqgikbve",
+      "products": [
+        {
+          "productId": "81e5",
+          "productName": "lap",
+          "quantity": 1,
+          "totalPrice": 6000
+        }
+      ],
+      "totalAmount": 6000,
+      "date": "2025-07-15T06:03:22.372Z",
+      "paidBy": "u1"
+    },
+    {
+      "id": "7647",
+      "name": "pradeep",
+      "address": "mscldv ",
+      "products": [
+        {
+          "productId": "81e5",
+          "productName": "lap",
+          "quantity": 1,
+          "totalPrice": 6000
+        }
+      ],
+      "totalAmount": 6000,
+      "date": "2025-07-15T06:20:47.623Z",
+      "paidBy": "1752560125912"
+    },
+    {
+      "id": "02fc",
+      "name": "pars",
+      "address": "vdsvvd",
+      "products": [
+        {
+          "productId": "81e5",
+          "productName": "lap",
+          "quantity": 1,
+          "totalPrice": 6000
+        }
+      ],
+      "totalAmount": 6000,
+      "date": "2025-07-15T06:21:22.310Z",
+      "paidBy": "Normal Payment"
+    },
+    {
+      "id": "2b14",
+      "name": "paddd",
+      "address": "icugsbabsbba",
+      "products": [
+        {
+          "productId": "326b",
+          "productName": "a",
+          "quantity": 5,
+          "totalPrice": 10
+        }
+      ],
+      "totalAmount": 50,
+      "date": "2025-07-15T08:33:41.772Z",
+      "paidBy": "Normal Payment"
+    },
+    {
+      "id": "eec5",
+      "name": "B",
+      "address": "12345",
+      "products": [
+        {
+          "productId": "326b",
+          "productName": "a",
+          "quantity": 10,
+          "totalPrice": 10
+        }
+      ],
+      "totalAmount": 100,
+      "date": "2025-07-15T08:34:59.263Z",
+      "paidBy": "Normal Payment"
+    }
+  ],
+  "EmployeeLogin": [
+    {
+      "id": "3w",
+      "name": "Pradeep",
+      "password": "1234"
+    },
+    {
+      "id": "2w",
+      "name": "Pradeep",
+      "password": "1234"
+    },
+    {
+      "id": "1w",
+      "name": "Pradeep",
+      "password": "1234"
+    },
+    {
+      "id": "77a3",
+      "name": "SANTHOSHKUMAR V",
+      "password": "12345678"
+    },
+    {
+      "id": "edcb",
+      "name": "78e",
+      "password": "1234"
+    }
+  ],
+  "ManagerLogin": [
+    {
+      "id": "1m",
+      "name": "Pradeepmmmm",
+      "password": "1234"
+    },
+    {
+      "id": "2m",
+      "name": "Pradeepmmmm",
+      "password": "1234"
+    },
+    {
+      "id": "5579",
+      "name": "TKVEQ",
+      "password": "QKBKDKEBF"
+    },
+    {
+      "id": "dc0a",
+      "name": "5m",
+      "password": "1234"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alice",
+      "money": 9999922000
+    },
+    {
+      "name": "Bol",
+      "money": 59990099999,
+      "id": "u2"
+    },
+    {
+      "id": "1752560125912",
+      "name": "pradeep",
+      "money": 12339566
+    },
+    {
+      "id": "1752567460049",
+      "name": "vikash",
+      "money": 80549872623
+    },
+    {
+      "id": "1752567472607",
+      "name": "sivaraj",
+      "money": 999999999999
+    }
+  ]
+}

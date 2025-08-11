@@ -1,0 +1,162 @@
+.userdata-container {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.userdata-title {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.userdata-subtitle {
+  font-size: 1.3rem;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.userdata-add-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.userdata-input {
+  flex: 1;
+  min-width: 120px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.userdata-input:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 6px rgba(25, 118, 210, 0.3);
+}
+
+.userdata-button {
+  padding: 10px 20px;
+  background-color: #630b79;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.userdata-button:hover {
+  background-color: #1565c0;
+}
+
+.userdata-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.userdata-th,
+.userdata-td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.userdata-th {
+  background-color:peru;
+  color: white;
+  font-weight: 700;
+  user-select: none;
+}
+
+.userdata-row:nth-child(even) {
+  background-color: #f7f9fc;
+}
+
+.userdata-row:hover {
+  background-color: #e8f0fe;
+}
+
+.userdata-edit-row {
+  background-color: #fffbe6;
+}
+
+.userdata-edit-input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1.5px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.userdata-edit-input:focus {
+  outline: none;
+  border-color: #f9a825;
+  box-shadow: 0 0 6px rgba(249, 168, 37, 0.4);
+}
+
+.userdata-edit-button,
+.userdata-save-button,
+.userdata-cancel-button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  margin-right: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.userdata-edit-button {
+  background-color: #0d559e;
+  color: white;
+}
+
+.userdata-edit-button:hover {
+  background-color: #1565c0;
+}
+
+.userdata-save-button {
+  background-color: #388e3c;
+  color: white;
+}
+
+.userdata-save-button:hover {
+  background-color: #2e7d32;
+}
+
+.userdata-cancel-button {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.userdata-cancel-button:hover {
+  background-color: #b71c1c;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .userdata-add-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .userdata-input,
+  .userdata-button {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}

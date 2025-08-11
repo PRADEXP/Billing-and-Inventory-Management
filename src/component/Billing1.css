@@ -1,0 +1,158 @@
+.billing-container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.billing-form {
+  margin-bottom: 30px;
+}
+
+.billing-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.billing-input, 
+.billing-textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.billing-input:focus, 
+.billing-textarea:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 6px rgba(25, 118, 210, 0.3);
+}
+
+.billing-textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.billing-button {
+  padding: 10px 18px;
+  background-color: #c0a21cd7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.billing-button:hover {
+  background-color: #1565c0;
+}
+
+.billing-hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+.billing-radio-group {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.billing-radio-label {
+  cursor: pointer;
+  user-select: none;
+}
+
+.billing-payer-id {
+  margin-top: 10px;
+}
+
+.billing-h2 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.billing-h3 {
+  font-size: 1.3rem;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.billing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #2c3e50;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.billing-th, .billing-td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.billing-th {
+  background-color: #15179e;
+  color: #fff;
+  font-weight: 700;
+  user-select: none;
+}
+
+.billing-tr:nth-child(even) {
+  background-color: #f7f9fc;
+}
+
+.billing-tr:hover {
+  background-color: #e8f0fe;
+}
+
+.billing-action-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-right: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.billing-action-button:hover {
+  background-color: #d32f2f;
+}
+
+.billing-submit-button {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #388e3c;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.billing-submit-button:hover {
+  background-color: #2e7d32;
+}
